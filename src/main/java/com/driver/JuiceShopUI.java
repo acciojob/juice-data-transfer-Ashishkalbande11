@@ -53,7 +53,7 @@ public class JuiceShopUI {
             System.out.println("Enter" + i+1 + "ingerdient :");
             ingredient.add(scanner.nextLine());
         }
-        System.out.println("Enter price :")
+        System.out.println("Enter price :");
         double price = scanner.nextDouble();
 
         JuiceDTO juiceDTO = new JuiceDTO(name, ingredient, price);
